@@ -1,0 +1,46 @@
+[start]
+{
+Welcome you're standing in front of this cave
+What would you do
+}
+(c)
+cave:Go into the cave
+escape:Runaway
+(/c)
+[/start]
+
+
+[cave]
+{
+You're in the cave now
+You're felt something under your foot
+}
+(c)
+take:Take the mysterious thing
+flashlight:Try to turn on the flashlight
+(/c)
+[/cave]
+
+
+[take]
+{
+You take plant under your feet
+and injured yourself with poisonous spikes
+}
+(c)
+
+(/c)
+[/take]
+
+[flashlight]
+{
+You turned on the flashlight and saw poisonous plant under your feet
+You survived
+}
+[/flashlight]
+
+[escape]
+{
+You ran away and nothing happened
+}
+[/escape]
